@@ -1,0 +1,58 @@
+NOMBRE:Carlos Piña de la Torre
+FECHA:26/10/2022
+
+PARTE TEÓRICA
+
+a) Definición de proceso. 1 punto.  
+
+Un proceso es un programa en ejecucion, un programa puede crear varios procesos con distintas tareas que realizar. 
+Se podria decir que es toda la parte asíncrona que puede ser asignada a un procesador
+
+
+b) Utilizando tus propias palabras, indica la relación entre hilos y procesos. 3 puntos.
+Dentro de un mismo proceso pueden existir varios hilos.
+Los hilos son mas rapidos de crear.
+Los hilos comparten la informacioncon el proceso.
+Para comunicarse entre procesos se necesita del nucleo del SO, los hilos pueden sin ayuda.
+Normalmente los hilos cooperan entre si para resolver un problema.
+
+
+c) Utilizando tus propias palabras, indica las características de la programación concurrente y sus ámbitos de aplicación. 3 puntos.
+Permite que varios sucesos ocurran al mismo tiempo, es posible gracias a que los procesadores tienes varios nucleos de procesamiento cada puede ejecutar un hilo al mismo tiempo.
+Dos procesos serán concurrentes cuando sus instrucciones se intercalan, no es lo mismo que la paralela en la que trabjan a la vez pero de forma independiente.
+
+
+
+d) Utilizando tus propias palabras, indica las diferencias entre programación paralela y programación distribuida, sus ventajas e inconvenientes. 3 puntos.
+3.1 Programación paralela
+
+En la programacion paralela el problema se divide en varias partes, en las que pueden trabajar a la vez varias CPUs. 
+Esta pensada para procesadores multinucleo mientras que la distribuida tiene el software o hardware distrubido entre si, esto puede generar concurrencia, fallos individuales, etc.
+
+Ventajas comunicaion paralela
+- Ejecución simultánea
+- Menor tiempo de ejecución
+- Resolución de problemas complejos
+
+Desventajas comunicacion paralela
+- Compiladores y entornos complejos
+- Mas dificil de comunicar entre ellos y mas dificil sincronizarlos
+- Consumen mayor engernia
+- Acceso a los datos mas complejo
+- Mayor dificulta a la hora de crear el programa
+
+Ventajas comunicacion distribuida
+- Se pueden compartir los recursos y datos
+- Tiene capacidad de crecimiento
+- Mayor flexibilidad y Alta disponibilidad
+
+Desventajas comunicacion distribuida
+- Aumento de complejidad
+- Problemas con la red de comunicacion
+- Problemas de seguridad
+
+
+
+Notas:
+
+El nombre del fichero .txt a entregar debe ser:	examen\dev_X\ua1ex1_teoria.txt , es decir, el fichero ua1ex1_teoria.txt debe estar ubicado en tu carpeta examen\dev_X\
